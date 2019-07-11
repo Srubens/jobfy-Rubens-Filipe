@@ -1,0 +1,12 @@
+1- INICIAR COM NPM INIT
+[PODEMOS COLOCAR COIGOS DE 3TERCEIROS]
+2- INSTALAR npm install --save express
+3- INSTALAR O ejs npm install --save ejs UM TEMPLATE
+
+NODE INDEX RODAR O ARQUIVO
+
+USAR O INCLUDE 
+<%- include('NOME DO ARQUIVO') %>
+
+INSTALAR SQL LITE
+npm install sqlite

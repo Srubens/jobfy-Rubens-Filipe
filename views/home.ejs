@@ -1,0 +1,28 @@
+<%- include('header') %>
+
+	<div class="box-open-vaga">
+		<h1>Open Roles:</h1>
+	</div>
+
+	<div class="container">
+		<div class="flex">
+			<div class="content">
+				<% categorias.forEach( categoria => { %>  
+					 
+				<div class="box-vaga">
+					<h1><%- categoria.categoria %></h1>
+					<ul>
+						<% categoria.vagas.forEach( vaga => { %>
+						<li><a href="/vaga/<%- vaga.id %>"> <%- vaga.titulo  %> </a></li>
+						<% }) %>
+					</ul>
+				</div>
+				    
+				<% }) %>
+
+			</div>
+		</div>
+	</div>
+
+
+<%- include('footer') %>

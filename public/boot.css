@@ -1,0 +1,51 @@
+.container{
+	padding: 20px;
+}
+
+.header-top{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.header-top a{
+	text-align: center;
+	justify-content: center;
+	display: flex;
+}
+
+.header-top a img{
+	max-width: 300px
+}
+
+.header-top p{
+	margin: 15px 0;
+}
+
+.box-open-vaga {
+	background: #ddd;
+	width: 100%;
+	padding: 8px;
+}
+
+.box-open-vaga h1{
+	margin-left: 48px;
+}
+
+.box-vaga{
+	margin-bottom: 20px;
+}
+
+.box-vaga li{
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+.footer{
+	width: 100%;
+	background: #000;
+	padding: 15px;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+}
